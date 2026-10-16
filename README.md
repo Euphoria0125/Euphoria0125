@@ -1,103 +1,35 @@
-<div align="center">
+# Xinyi Yang — Academic Homepage
 
-# Hi 👋, I'm Xinyi Yang
+A static website for https://euphoria0125.github.io/. No installation or build step is required.
 
-**M.S. Student in Artificial Intelligence @ Columbia University**
+## Deploy to GitHub Pages
 
-Natural Language Processing · Large Language Models · Multimodal Learning · AI Agents
+1. Unzip `Xinyi_Yang_Homepage.zip`.
+2. Copy `index.html`, `style.css`, `.nojekyll`, and the entire `assets/` directory into the root of `Euphoria0125/Euphoria0125.github.io`, replacing the existing files. Do not place them inside an extra `homepage/` folder.
+3. Commit the changes. In GitHub → Settings → Pages, use the existing deployment configuration. If configuring for the first time, choose “Deploy from a branch”, then `main` and `/ (root)`.
+4. After GitHub Pages finishes deploying, open the homepage and click CV to verify the published PDF.
 
-[![Homepage](https://img.shields.io/badge/HOMEPAGE-4078C0?style=for-the-badge)](https://Euphoria0125.github.io)
-[![Email](https://img.shields.io/badge/EMAIL-D14836?style=for-the-badge)](mailto:xy2769@columbia.edu)
-[![GitHub](https://img.shields.io/badge/GITHUB-24292e?style=for-the-badge)](https://github.com/Euphoria0125)
-[![CV](https://img.shields.io/badge/CV-555555?style=for-the-badge)](https://Euphoria0125.github.io/assets/Xinyi_Yang_CV.pdf)
+## Contact & profiles
 
-</div>
+- [Email](mailto:xy2769@columbia.edu)
+- [GitHub](https://github.com/Euphoria0125)
+- [LinkedIn](https://www.linkedin.com/in/xy-young0125)
+- [CV](assets/Xinyi_Yang_CV.pdf)
 
-## 👩🏻‍💻 About Me
+## Files
 
-I am an M.S. student in **Artificial Intelligence at Columbia University**, 
-concentrating in AI and Advanced Computing.
+- `index.html`: English homepage, semantic HTML and section navigation.
+- `style.css`: responsive layout, keyboard focus styles, print rules, no external font dependencies.
+- `assets/profile.jpg`: original portrait from the existing homepage.
+- `assets/Xinyi_Yang_CV.pdf`: exact copy of the user-provided `resume_Xinyi.pdf`; the old URL is preserved.
+- `.nojekyll`: allows GitHub Pages to serve the static files directly.
 
-Previously, I received my B.E. in Artificial Intelligence and Automation 
-from **Huazhong University of Science and Technology (HUST)** and spent 
-an exchange year studying Electrical and Computer Engineering at 
-**UC Santa Barbara**.
+## Content source
 
-My research interests lie in **natural language processing, large language 
-models, multimodal learning, and AI agents**.
+The user-provided `resume_Xinyi.pdf` is the authoritative source for experience, dates, education, awards, and performance figures. The existing homepage was reviewed on October 16, 2026. Research interests retain the user's requested NLP / LLM / multimodal agents emphasis.
 
-I am particularly interested in how language models reason, interact 
-with external tools, and leverage multimodal information to solve 
-complex problems.
+The public site's previous CV gave a January 2025 end date for the HUST research role. The supplied resume gives November 2025; this package uses November 2025.
 
-## 🔬 Research Experience
+Only selected experience appears on the homepage. The full CV retains the additional control, embedded systems, simulation, and programming projects. No papers, advisors, project links, or additional affiliations have been invented. The reported benchmark figures are reproduced from the resume and have not been independently audited.
 
-### Multimodal LLM Agent with Tool Use
-
-**Intelligent Perception and Auto-Driving Lab, HUST**  
-*Undergraduate Research Assistant | Jan. 2024 – Nov. 2025*
-
-I worked on developing a multimodal LLM agent with external 
-tool-use capabilities for perception, planning, and decision-making.
-
-My contributions included:
-
-- Developing a GPT-4-based instruction-data generation pipeline 
-  for tool-calling conversations.
-- Fine-tuning Qwen-VL using LoRA to enable external tool invocation.
-- Integrating Grounding DINO, SAM, and InstructPix2Pix into a 
-  tool-augmented multimodal agent.
-- Contributing to model evaluation and performance analysis.
-
-**Result:** The system achieved **45.4 on MM-VET**, outperforming 
-the LLaVA-Plus baseline by **29.7%**.
-
-### OCR Text Detection and Recognition
-
-**CamAI+ Deep Learning and Neural Networks Program**  
-*Project Team Lead | Jan. 2023 – Mar. 2023*
-
-- Led a team to develop a YOLOv5-based text-recognition pipeline.
-- Built a custom image-text dataset.
-- Evaluated system performance under complex visual conditions.
-
-## 💻 Professional Experience
-
-### AI Algorithm Intern — China Telecom
-
-**Summer 2026 | AI-based Examination Monitoring**
-
-Developed a real-time examination monitoring system using YOLO11 
-and PyTorch for abnormal behavior detection in surveillance videos.
-
-Optimized the detection pipeline to support efficient real-time inference.
-
-**Summer 2025 | Financial Document Intelligence**
-
-Developed an intelligent financial document analysis system 
-combining sequence-to-sequence text generation with document understanding.
-
-- Reduced repetitive generated outputs from **27% to 9%**.
-- Fine-tuned Faster R-CNN for document understanding, achieving **0.78 mAP**.
-
-## 🎓 Education
-
-**Columbia University**  
-M.S. in Artificial Intelligence, AI and Advanced Computing  
-*2026 – 2027 (Expected)*
-
-**University of California, Santa Barbara**  
-Exchange Student, Electrical and Computer Engineering  
-*2025 – 2026*
-
-**Huazhong University of Science and Technology**  
-B.E. in Artificial Intelligence and Automation, Honors Class  
-*2022 – 2026*
-
----
-
-<div align="center">
-
-📧 **Contact:** xy2769@columbia.edu
-
-</div>
+This package has not been pushed to GitHub or published.
